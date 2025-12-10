@@ -1,12 +1,13 @@
 from enum import Enum
 
+SEGMENTED = True  
+
 class DatasetSplit(Enum):
     TRAIN = "train"
     VALIDATION = "validation"
     TEST = "test"
 
 class DataPreprocessingConfig:
-
     RAW_DATA_DIR = "/Users/selenaytas/Desktop/keditür/images"
     MODEL_DATA_DIR = "/Users/selenaytas/Desktop/CatBreedsDatasetProject/data"
 
